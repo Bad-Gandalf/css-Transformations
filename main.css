@@ -1,27 +1,19 @@
+body, html {
+    height: 100%;
+}
 
-
-img {
+.element {
 	
-      margin: 100px;
-      animation-name: SpinnyBear;
-      animation-duration: 2s; 
-      animation-timing-function: linear; 
-      animation-iteration-count: infinite;
-      animation-direction: normal;
-     /* try these values for the animation-direction property:
-        reverse
-        alternate
-        normal
-      */
+      
+      height: 150px;
+      width: 150px;
+      background-color: #BA4545;
+      transition-duration: 1s; 
+       
+      
  }
  
- @keyframes SpinnyBear {
-     from {
-         
+.element:hover {
+       transform: translate(100%, 0)
      }
-     
-     to {
-       transform: rotate(360deg)
-       
-     }
- }
+ 
