@@ -1,12 +1,27 @@
 
 
 img {
-	margin: 50px;
-	transition-duration: 1s;
-	transition-timing-function: ease-in
-}
-
-img:hover {
-    transform: scale(2);
-    margin: 150px;
-}
+	
+      margin: 100px;
+      animation-name: SpinnyBear;
+      animation-duration: 2s; 
+      animation-timing-function: linear; 
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+     /* try these values for the animation-direction property:
+        reverse
+        alternate
+        normal
+      */
+ }
+ 
+ @keyframes SpinnyBear {
+     from {
+         
+     }
+     
+     to {
+       transform: rotate(360deg)
+       
+     }
+ }
